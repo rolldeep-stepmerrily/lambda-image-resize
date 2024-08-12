@@ -1,0 +1,28 @@
+{
+  "name": "lambda-image-resize",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "aws-sdk": "^2.1672.0",
+    "dotenv": "^16.4.5",
+    "sharp": "^0.33.4",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.143",
+    "@types/dotenv": "^6.1.1",
+    "@types/node": "^22.2.0",
+    "@types/sharp": "^0.31.1",
+    "@types/uuid": "^10.0.0",
+    "typescript": "^5.5.4"
+  }
+}
